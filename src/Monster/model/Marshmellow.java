@@ -27,15 +27,52 @@ public class Marshmellow
 		this.legCount = legCount;
 		this.noseCount = noseCount;
 		this.hasBellyButton = hasBellyButton;
-		
 	}
 	
-	/*
-	 * monster name is sir.Maralsh's Worth
-	 * has 324.324 antenna
-	 * has 2 legs
-	 * has 0 nose
-	 * has 2 eyes
-	 * does not have a belly button
-	 */
+	public String toString()
+	{
+		String description = "Monster says: Name is " + name;
+		
+		return description;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public boolean getHasBellyButton()
+	{
+		return hasBellyButton;
+	}
+	
+	public int getLegCount()
+	{
+		return legCount;
+	}
+	
+	public int geteyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setHasBellyButton(boolean hasBellyButton)
+	{
+		this.hasBellyButton = hasBellyButton;
+	}
+	
+	public void setLegCount(int legCount)
+	{
+		this.legCount = legCount;
+	}
+	
+	public void seteyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
 }
